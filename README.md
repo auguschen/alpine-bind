@@ -1,5 +1,5 @@
 # alpine-bind
 bind based alpine
 ## config default
-/etc/bind/named.conf
-directory "/var/bind"
+1. /etc/bind/named.conf
+2. directory "/var/bind"
