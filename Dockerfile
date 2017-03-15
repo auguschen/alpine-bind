@@ -2,7 +2,7 @@ FROM alpine
 
 MAINTAINER Chen Augus <tianhao.chen@gmail.com>
 
-RUN apk update && apk add bind && rm -rf /var/cache/apk/*
+RUN apk update && apk add bind && mkdir -p /var/bind/log && rm -rf /var/cache/apk/*
 
 COPY named.conf /etc/bind/named.conf
 
